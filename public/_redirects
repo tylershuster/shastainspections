@@ -1,0 +1,11 @@
+# Legacy Drupal paths -> new flat URLs
+/home-page            /                 301
+/node/1               /                 301
+/node/2               /areas-service    301
+/node/3               /bio              301
+/node/4               /pricing          301
+/node/5               /contact          301
+# The old media downloads 403'd for visitors; point them at the real files
+/media/8/download     /assets/reports/13579-phaedra-lane-inspection.pdf   301
+/media/9/download     /assets/reports/435-springer-drive-inspection.pdf   301
+/media/10/download    /assets/reports/3411-lemurian-road-inspection.pdf   301
